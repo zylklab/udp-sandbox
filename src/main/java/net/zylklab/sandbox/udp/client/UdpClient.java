@@ -36,7 +36,7 @@ public class UdpClient {
 	
 	
     public static void main(String args[]) throws IOException, InterruptedException{
-    	int events = 100;
+    	int events = 5000;
     	InetAddress address = null;
         try {
             address = InetAddress.getLocalHost();
