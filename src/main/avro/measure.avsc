@@ -1,0 +1,9 @@
+{"namespace": "net.zylklab.sandbox.udp.avro",
+ "type": "record",
+ "name": "MeasureRecord",
+ "fields": [
+     {"name": "name", "type": "string"},
+     {"name": "value",  "type": ["int", "null"]},
+     {"name": "timestamp", "type": ["long", "null"]}
+ ]
+}
